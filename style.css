@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial;
+    text-decoration: none;
+}
+header{
+    background-color:black;
+    height: 100px;
+    cursor: pointer;
+    opacity: 100%;
+    position: fixed;
+    top: 0%;
+    z-index:1;
+}
+.app-downloader{
+    
+    width: 200px;
+    height: 100px;
+    background-color: rgb(41, 39, 39);
+    margin-top: 550px;
+    border-radius: 20px;
+    margin-left: 1280px;
+    display: flex;
+    justify-content: center;
+}
+.app-downloader .textapp{
+    margin-top: 30px;
+    color: white;
+    min-width: 120px;
+    margin-left: 10px;
+}
+.app-downloader img{
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 15px;
+    
+}
+
+header:hover{
+    opacity: 75.1%;
+
+}
+.header-section{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.header-middle-section ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 370px;
+    margin-top:40px;
+    
+}
+.header-middle-section ul li a{
+    color: white;
+    font-size: large;
+    font-family:Arial;
+    letter-spacing: 1px;
+    margin-right: 100px;
+    text-decoration:none;
+}
+
+.list{
+    display:none;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+   
+}
+.header-middle-section ul li:hover .list{
+    display: block;
+    background-color:black;
+    position: absolute;
+    width: 130px;
+    height: 220px;
+    margin-top: 25px;
+    
+    
+}
+.header-middle-section ul li:hover .list ul li{
+    text-decoration: none;
+}
+.header-middle-section ul li:hover .list ul{
+    display: block;
+    margin: 10px;
+    opacity: 100%;
+    
+}
+
+.header-right-section{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    margin-left: 100px;
+}
+input{
+    margin-top:30px;
+    margin-right: 30px;
+    height:55px;
+    font-size: 18px;
+    border: 1px solid white;
+    
+}
+.b1{
+    border-radius: 10px;
+    width: 155px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+.b2{
+    width: 130px;
+    background-color:#FC5237;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.grey{
+    background-image: url('backgroundbooks.webp');
+}
+.first-box{
+    height: 700px;
+    background-color: rgb(11, 11, 11);
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.first-box .fbox{
+    height: 400px;
+    width: 600px;
+    background:transparent;
+    opacity: 1000%;
+    text-align:center;
+}
+.second-box{
+    height: 1350px;
+    background-color: black;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.second1{
+    height: 350px;
+    border-radius: 20px;
+    width: 1300px;
+    background-color: rgb(41, 39, 39);
+   
+    padding-top: 10px;
+    
+}
+.audiobook{
+    height:140px;
+    border-radius: 25px;
+    background-color: rgb(41, 39, 39);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    color: white;
+}
+.language-main{
+    background-color: rgb(41, 39, 39);
+    display: flex;
+    height: 190px;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.language-main .lang{
+    height: 130px;
+    width: 130px;
+    border: 1px solid white;
+    background-color: grey;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.symbol{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.symbol:hover {
+    font-size: 80px;
+    
+    
+   
+}
+.lang:hover{
+    background-color: rgb(41, 39, 39);
+
+
+}
+.word{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+}
+.red{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 70px;
+    color: white;
+}
+.green{
+    background-color:black;
+    display:inline-flex;
+    width: 1100px;
+    height: 120px;
+    justify-content: space-evenly;
+}
+.green .g1{
+    height:60px;
+    background-color:black;
+    width:100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:flex-start;
+    border-radius: 20px;
+    padding-top:10px;
+    margin-left: 10px;
+    border: 1px solid  whitesmoke;
+   
+}
+.g1 div{
+    
+    padding-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+.yellow{
+    background-color: black;
+    height: 650px;
+}
+.y1{
+    background-color: black;
+    height: 120px;
+}
+.y1 p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.book12 img,.book1 img{
+    width:100%;
+    border-radius: 20px;
+}
+.book,.book2{
+    height: 265px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.book1,.book12{
+    height: 230px;
+    width:230px ;
+    border: 1px solid white;
+    background-color: rgb(11, 11, 11);
+    margin-top: 15px;
+    border-radius: 20px;
+    
+}
+.third-box{
+    height: 850px;
+    background-color: rgb(41, 39, 39);
+    padding-left:100px;
+    padding-right: 100px;
+    display: flex;
+}
+.t1{
+    background-color: rgb(41, 39, 39);
+    height: 840px;
+    margin-right: 10px;
+}
+.t11{
+    background-color: rgb(41, 39, 39);
+    width: 400px;
+    margin-left:2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.t13{
+    background-color: rgb(41, 39, 39);
+    margin-top: 20px;
+    height: 48%;
+    display: flex;
+
+}
+.t13 div{
+    width: 60%;
+    margin-top: 40px;
+}
+.t13 div img{
+    width:85%;
+    height: 55%;
+    margin-right: 10px;
+}
+.tt1{
+    display: flex;
+    background-color: rgb(41, 39, 39);
+    height: 25%;
+    margin-top: 40px;
+    justify-content: center;
+}
+.tt1 .ttt{
+    background-color: rgb(41, 39, 39);
+    height: 90%;
+    width: 49%;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 4px;
+}
+.ttt img{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.ttt p{
+    padding-left: 15px;
+    padding-top: 45px;
+    font-size: 20px;
+
+}
+.footer{
+    background-color:black;
+    height: 650px;
+    display: flex;
+}
+.footer-element{
+    background-color:black;
+    height: 90%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.footer-element div a i{
+    background-color: white;
+}
+h4{
+    color:red
+}
+p{
+    color:white;
+}
